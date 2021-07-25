@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#fc9003;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    overflow:hidden;
+}
+
+.controls{
+    position: absolute; /*body ပေါမှာလွတ်ထွက်သွား*/
+    bottom:20px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 4px;
+            /*top bottom left and right*/
+    padding: 10px 20px;
+
+}

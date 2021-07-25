@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: #7d5fff;
+    color: #fff;
+   height: 100vh;   /*view porth heigth */
+
+/* တွဲသုံးပေးရမယ် */
+    display: flex; /*ပြောင်းလွယ် ပြင်လွယ် ဖြစ်အောင် */
+     justify-content:center; /*အလျား */
+     align-items: center; /* vertical*/
+
+
+/* scole ဖြစ်နေတာကို မဖြစ်အောင် */
+     /* margin:0; */
+     overflow:hidden;
+
+}
+
+.counter-container{
+    
+    display: flex; 
+    flex-direction: column; /*flex ကို မူရင်းအတိုင်းဖြစ်‌အောင် */
+    justify-content: center; 
+    align-items: center;
+
+            /* top bottom left and right */
+    margin: 0 50px;
+    
+}
+
+.counter-container .counter{
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+@media(max-width: 580px){
+    body{
+        flex-direction: column;
+    }
+
+    .counter-container{
+        margin: 30px 50px;
+    }
+}
